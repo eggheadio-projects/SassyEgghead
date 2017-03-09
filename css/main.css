@@ -1,0 +1,45 @@
+.spiderman {
+  padding: 1rem 2rem;
+  transition: transform .8s ease-in-out;
+}
+
+.spiderman-container:hover .spiderman {
+  transform: rotate(180deg);
+}
+
+.spiderman-container {
+  background-color: #dbbebe;
+}
+
+.spiderman::before {
+  display: block;
+  content: url("http://gallery1.anivide.com/_full/80728_1442526786.gif");
+}
+
+.spiderman img {
+  transition: transform .8s ease-in-out;
+}
+
+.spiderman img:hover {
+  transform: rotate(360deg);
+}
+
+.spiderman .description {
+  color: darkred;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.spiderman .description .header {
+  font-size: 2rem;
+}
+
+.spiderman .description-link {
+  text-decoration: none;
+}
+
+.spiderman .description-link::after {
+  content: url("https://65.media.tumblr.com/avatar_a96a78c3d6ad_128.png");
+  display: inline-block;
+  vertical-align: middle;
+}
